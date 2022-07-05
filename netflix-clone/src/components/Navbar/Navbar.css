@@ -1,0 +1,51 @@
+.navbar{
+    color:white;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: transparent;
+    transition: 1s all;
+
+}
+
+
+.show_nav{
+    background: #111;
+}
+
+.logo{
+    width: 160px;
+    height: 60px;
+}
+
+.navbarWrapper{
+    padding:  0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap:2rem
+}
+
+.right button{
+    padding: .5rem 1.2rem;
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    color:white
+}
+
+.right .join{
+    background: #F40612;
+
+}
+
+.right .signOut{
+    background: transparent;
+    border:1px solid white
+}
